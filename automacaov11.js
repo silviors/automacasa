@@ -167,6 +167,7 @@ function AlteraRele13(){
     }
 }
 
+
 function AlteraRele14(){
     var estado_14 = document.getElementById("estado_14").innerHTML;
     if(estado_14 === "0"){
