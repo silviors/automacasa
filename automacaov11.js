@@ -24,6 +24,7 @@ function AlteraRele2(){
     }
 }
 
+
 function AlteraRele3(){
     var estado_3 = document.getElementById("estado_3").innerHTML;
     if(estado_3 === "0"){
