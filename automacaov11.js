@@ -182,11 +182,7 @@ function AlteraRele14(){
 
 function AlteraRele15(){
     var estado_15 = document.getElementById("estado_15").innerHTML;
-	var senha;
-	do {
-		senha = prompt ("digite a senha");
-	} while (senha !== 100406)
-	alert ("senha incorreta");
+
     if(estado_15 === "0"){
         document.getElementById("estado_15").innerHTML="1";
         document.getElementById("rele_15").innerHTML="<div class='rele15_ligado'></div>";
