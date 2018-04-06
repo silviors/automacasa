@@ -181,6 +181,7 @@ function AlteraRele14(){
     }
 }
 
+
 function AlteraRele15(){
     var estado_15 = document.getElementById("estado_15").innerHTML;
     	var senha;
