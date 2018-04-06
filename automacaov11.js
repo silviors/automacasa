@@ -182,7 +182,6 @@ function AlteraRele14(){
 
 function AlteraRele15(){
     var estado_15 = document.getElementById("estado_15").innerHTML;
-
     if(estado_15 === "0"){
         document.getElementById("estado_15").innerHTML="1";
         document.getElementById("rele_15").innerHTML="<div class='rele15_ligado'></div>";
